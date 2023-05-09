@@ -58,7 +58,7 @@ const Blogs = () => {
           {blog.map((value,index) => (
             <StyledTableRow key={index}>
               <StyledTableCell component="th" scope="row">
-                {value.userId}
+                {value.id}
               </StyledTableCell>
               <StyledTableCell align="left">{value.title}</StyledTableCell>
               
